@@ -1,0 +1,3 @@
+MEGADOCK version 2.5.3
+-t 3
+-N 6000
