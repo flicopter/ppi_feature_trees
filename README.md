@@ -26,7 +26,7 @@ python contactmap.py <docking_output_file> <partner_pdb_file>
 
 explanation comes here..
 
-** Note **
+**Note**
 A docking output file has a set of pdb files docked.
 You need to have these files in the correct path.
 
