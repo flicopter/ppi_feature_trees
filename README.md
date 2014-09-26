@@ -19,13 +19,17 @@ Post-docking scripts
 --------------------
 
 ```bash
-python contactmap.py [docking_output_file] [correct binding partner's pdb file for the receptor protein]
+python contactmap.py <docking_output_file> <patner pdb file>
 ```
 
-for example
+'''partner pdb file'''
+explanation comes here..
+
+Note that a docking output file has a set of pdb files docked.
+You need to have these files in the correct path.
 
 ```bash
-jijiji
+
 ```
 
  
