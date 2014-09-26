@@ -15,7 +15,18 @@ cd Data/
 wget http://zlab.umassmed.edu/benchmark/benchmark4.tgz
 tar xf benchmark4.tgz
 ```
+Post-docking scripts
+--------------------
 
+```bash
+python contactmap.py [docking_output_file] [correct binding partner's pdb file for the receptor protein]
+```
+
+for example
+
+```bash
+jijiji
+```
 
  
 
