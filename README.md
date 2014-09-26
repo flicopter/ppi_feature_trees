@@ -19,10 +19,11 @@ Post-docking scripts
 --------------------
 
 ```bash
-python contactmap.py <docking_output_file> <patner pdb file>
+python contactmap.py <docking_output_file> <partner_pdb_file>
 ```
 
-'''partner pdb file'''
+*partner pdb file*
+
 explanation comes here..
 
 Note that a docking output file has a set of pdb files docked.
