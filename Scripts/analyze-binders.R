@@ -33,9 +33,11 @@ yhat = predict(et, D, probability = T)
 ## crossvalidation
 library(optunity)
 library(e1071)
-folds = c(1:5, generate_folds(num_instances = nrow(D)-5, num_folds = 5))
+folds = c(
+          generate_folds(num_instances = nrow(binders.norm),   num_folds = 5), 
+          generate_folds(num_instances = nrow(nobinders.norm), num_folds = 5))
 
-for (i in 1:5) {
+for (i in 1:max(folds)) {
   itrain = folds != i
   itest  = folds == i
   
