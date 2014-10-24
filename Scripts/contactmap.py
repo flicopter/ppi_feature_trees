@@ -116,6 +116,8 @@ if __name__ == '__main__':
 
 	if len(args) != 2:
 		p.error( "incorrect number of arguments" )
+
+	prody.confProDy( auto_show=False )
 	
 	outFileLines = open( args[0], 'r' ).read().splitlines()
 	grid_num = int(outFileLines[0].split('\t')[0])
