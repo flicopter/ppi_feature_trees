@@ -13,8 +13,18 @@ sudo pip install -U ProDy
 # [Zlab Benchmark] (http://zlab.umassmed.edu/benchmark/)
 cd Data/
 wget http://zlab.umassmed.edu/benchmark/benchmark4.tgz
-tar xf benchmark4.tgz
+tar xzf benchmark4.tgz
 ```
+
+It may be convenient to place all version benchmark data in one place, like below: 
+```bash
+cd benchmark4
+mkdir unbound
+mkdir bound
+cp */*_[rl]_b.pdb bound/.
+cp */*_[rl]_u.pdb unbound/.
+```
+
 Post-docking scripts
 --------------------
 
