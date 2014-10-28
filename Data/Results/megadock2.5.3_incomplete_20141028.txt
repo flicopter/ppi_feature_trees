@@ -1,0 +1,768 @@
+megadock2.5.3/1ACB_r_u/
+6
+[1] "ROC(et):  0.87"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.95"
+[1] "ROC(et):  0.87"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.87"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+megadock2.5.3/1AK4_r_u/
+1
+megadock2.5.3/1ATN_r_u/
+3
+[1] "ROC(et):  0.41"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1AVX_r_u/
+3
+[1] "ROC(et):  0.61"
+[1] "ROC(svm): 0.74"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1AY7_r_u/
+1
+megadock2.5.3/1B6C_r_u/
+1
+megadock2.5.3/1BKD_r_u/
+5
+[1] "ROC(et):  0.74"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.39"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.65"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+megadock2.5.3/1BUH_r_u/
+3
+[1] "ROC(et):  0.48"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.30"
+[1] "ROC(svm): 0.22"
+[1] "ROC(et):  0.67"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1BVN_r_u/
+1
+megadock2.5.3/1CGI_r_u/
+6
+[1] "ROC(et):  0.52"
+[1] "ROC(svm): 0.61"
+[1] "ROC(et):  0.93"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.78"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+megadock2.5.3/1CLV_r_u/
+2
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.22"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1D6R_r_u/
+4
+[1] "ROC(et):  0.57"
+[1] "ROC(svm): 0.30"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  0.72"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1DFJ_r_u/
+1
+megadock2.5.3/1E6E_r_u/
+1
+megadock2.5.3/1E96_r_u/
+4
+[1] "ROC(et):  0.41"
+[1] "ROC(svm): 0.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1EAW_r_u/
+2
+[1] "ROC(et):  0.39"
+[1] "ROC(svm): 0.74"
+[1] "ROC(et):  0.63"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1EFN_r_u/
+1
+megadock2.5.3/1EWY_r_u/
+2
+[1] "ROC(et):  0.89"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1F34_r_u/
+1
+megadock2.5.3/1F6M_r_u/
+2
+megadock2.5.3/1FC2_r_u/
+1
+megadock2.5.3/1FFW_r_u/
+1
+megadock2.5.3/1FLE_r_u/
+1
+megadock2.5.3/1FQ1_r_u/
+3
+[1] "ROC(et):  0.09"
+[1] "ROC(svm): 0.04"
+[1] "ROC(et):  0.72"
+[1] "ROC(svm): 0.00"
+[1] "ROC(et):  0.72"
+[1] "ROC(svm): 0.09"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1FQJ_r_u/
+1
+megadock2.5.3/1GCQ_r_u/
+4
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  0.20"
+[1] "ROC(svm): 0.00"
+[1] "ROC(et):  0.74"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1GHQ_r_u/
+2
+[1] "ROC(et):  0.46"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  0.65"
+[1] "ROC(svm): 0.39"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1GL1_r_u/
+6
+[1] "ROC(et):  0.43"
+[1] "ROC(svm): 0.00"
+[1] "ROC(et):  0.99"
+[1] "ROC(svm): 0.84"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+megadock2.5.3/1GLA_r_u/
+1
+megadock2.5.3/1GPW_r_u/
+1
+megadock2.5.3/1GRN_r_u/
+3
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 0.35"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.65"
+[1] "ROC(et):  0.61"
+[1] "ROC(svm): 0.22"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1GXD_r_u/
+2
+[1] "ROC(et):  0.54"
+[1] "ROC(svm): 0.00"
+[1] "ROC(et):  0.26"
+[1] "ROC(svm): 0.43"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1H1V_r_u/
+3
+[1] "ROC(et):  0.35"
+[1] "ROC(svm): 0.48"
+[1] "ROC(et):  0.83"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1H9D_r_u/
+1
+megadock2.5.3/1HE1_r_u/
+4
+[1] "ROC(et):  0.59"
+[1] "ROC(svm): 0.39"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.87"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1HE8_r_u/
+5
+[1] "ROC(et):  0.35"
+[1] "ROC(svm): 0.48"
+[1] "ROC(et):  0.07"
+[1] "ROC(svm): 0.39"
+[1] "ROC(et):  0.83"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 0.96"
+megadock2.5.3/1I2M_r_u/
+2
+[1] "ROC(et):  0.43"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.87"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1IBR_r_u/
+2
+[1] "ROC(et):  0.80"
+[1] "ROC(svm): 0.57"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.87"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1IRA_r_u/
+1
+megadock2.5.3/1J2J_r_u/
+1
+megadock2.5.3/1JIW_r_u/
+1
+megadock2.5.3/1JK9_r_u/
+1
+megadock2.5.3/1JTG_r_u/
+1
+megadock2.5.3/1KAC_r_u/
+1
+megadock2.5.3/1KTZ_r_u/
+2
+[1] "ROC(et):  0.87"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.87"
+[1] "ROC(svm): 0.65"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1KXP_r_u/
+3
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.89"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1KXQ_r_u/
+1
+megadock2.5.3/1LFD_r_u/
+5
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.67"
+[1] "ROC(svm): 0.57"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.52"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+megadock2.5.3/1M10_r_u/
+1
+megadock2.5.3/1MAH_r_u/
+1
+megadock2.5.3/1MQ8_r_u/
+4
+[1] "ROC(et):  0.39"
+[1] "ROC(svm): 0.17"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1N8O_r_u/
+7
+[1] "ROC(et):  0.07"
+[1] "ROC(svm): 0.65"
+[1] "ROC(et):  0.97"
+[1] "ROC(svm): 0.84"
+[1] "ROC(et):  0.57"
+[1] "ROC(svm): 0.52"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.13"
+[1] "ROC(svm): 0.61"
+megadock2.5.3/1NW9_r_u/
+1
+megadock2.5.3/1OC0_r_u/
+2
+[1] "ROC(et):  0.24"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  0.35"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1OPH_r_u/
+1
+megadock2.5.3/1OYV_r_u/
+5
+[1] "ROC(et):  0.20"
+[1] "ROC(svm): 0.22"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.70"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.28"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+megadock2.5.3/1PPE_r_u/
+4
+[1] "ROC(et):  0.65"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  0.78"
+[1] "ROC(svm): 0.70"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.09"
+[1] "ROC(svm): 0.13"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1PVH_r_u/
+2
+[1] "ROC(et):  0.57"
+[1] "ROC(svm): 0.52"
+[1] "ROC(et):  0.76"
+[1] "ROC(svm): 0.52"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1PXV_r_u/
+1
+megadock2.5.3/1QA9_r_u/
+3
+[1] "ROC(et):  0.72"
+[1] "ROC(svm): 0.61"
+[1] "ROC(et):  0.37"
+[1] "ROC(svm): 0.43"
+[1] "ROC(et):  0.61"
+[1] "ROC(svm): 0.70"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1R0R_r_u/
+3
+[1] "ROC(et):  0.70"
+[1] "ROC(svm): 0.52"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.83"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1R6Q_r_u/
+1
+megadock2.5.3/1R8S_r_u/
+2
+[1] "ROC(et):  0.30"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  0.35"
+[1] "ROC(svm): 0.57"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1S1Q_r_u/
+4
+[1] "ROC(et):  0.67"
+[1] "ROC(svm): 0.74"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1SBB_r_u/
+1
+megadock2.5.3/1SYX_r_u/
+1
+megadock2.5.3/1T6B_r_u/
+1
+megadock2.5.3/1TMQ_r_u/
+2
+[1] "ROC(et):  0.15"
+[1] "ROC(svm): 0.04"
+[1] "ROC(et):  0.26"
+[1] "ROC(svm): 0.13"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1UDI_r_u/
+1
+megadock2.5.3/1US7_r_u/
+1
+megadock2.5.3/1WQ1_r_u/
+5
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.22"
+[1] "ROC(svm): 0.09"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.39"
+[1] "ROC(svm): 0.74"
+[1] "ROC(et):  0.26"
+[1] "ROC(svm): 0.26"
+megadock2.5.3/1XD3_r_u/
+3
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 0.70"
+[1] "ROC(et):  0.74"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  0.87"
+[1] "ROC(svm): 0.22"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1XQS_r_u/
+1
+megadock2.5.3/1Y64_r_u/
+4
+[1] "ROC(et):  0.83"
+[1] "ROC(svm): 0.04"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  0.87"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1YVB_r_u/
+1
+megadock2.5.3/1Z0K_r_u/
+2
+[1] "ROC(et):  0.35"
+[1] "ROC(svm): 0.17"
+[1] "ROC(et):  0.41"
+[1] "ROC(svm): 0.13"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/1Z5Y_r_u/
+1
+megadock2.5.3/1ZHH_r_u/
+1
+megadock2.5.3/1ZHI_r_u/
+1
+megadock2.5.3/1ZLI_r_u/
+1
+megadock2.5.3/1ZM4_r_u/
+1
+megadock2.5.3/2A5T_r_u/
+1
+megadock2.5.3/2A9K_r_u/
+1
+megadock2.5.3/2ABZ_r_u/
+3
+[1] "ROC(et):  0.52"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  0.59"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.35"
+[1] "ROC(svm): 0.48"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/2AJF_r_u/
+1
+megadock2.5.3/2AYO_r_u/
+1
+megadock2.5.3/2B42_r_u/
+1
+megadock2.5.3/2BTF_r_u/
+3
+[1] "ROC(et):  0.93"
+[1] "ROC(svm): 0.09"
+[1] "ROC(et):  0.57"
+[1] "ROC(svm): 0.00"
+[1] "ROC(et):  0.67"
+[1] "ROC(svm): 0.35"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/2C0L_r_u/
+1
+megadock2.5.3/2CFH_r_u/
+1
+megadock2.5.3/2FJU_r_u/
+1
+megadock2.5.3/2G77_r_u/
+2
+[1] "ROC(et):  0.28"
+[1] "ROC(svm): 0.30"
+[1] "ROC(et):  0.09"
+[1] "ROC(svm): 0.22"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/2H7V_r_u/
+5
+[1] "ROC(et):  0.37"
+[1] "ROC(svm): 0.00"
+[1] "ROC(et):  0.87"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.78"
+[1] "ROC(svm): 0.96"
+megadock2.5.3/2HLE_r_u/
+1
+megadock2.5.3/2HQS_r_u/
+1
+megadock2.5.3/2HRK_r_u/
+1
+megadock2.5.3/2I25_r_u/
+1
+megadock2.5.3/2I9B_r_u/
+3
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.87"
+[1] "ROC(et):  0.20"
+[1] "ROC(svm): 0.22"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/2IDO_r_u/
+1
+megadock2.5.3/2J0T_r_u/
+1
+megadock2.5.3/2J7P_r_u/
+1
+megadock2.5.3/2NZ8_r_u/
+4
+[1] "ROC(et):  0.74"
+[1] "ROC(svm): 0.30"
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/2O3B_r_u/
+1
+megadock2.5.3/2O8V_r_u/
+1
+megadock2.5.3/2OOB_r_u/
+5
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.87"
+[1] "ROC(svm): 0.87"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+megadock2.5.3/2OT3_r_u/
+1
+megadock2.5.3/2OUL_r_u/
+1
+megadock2.5.3/2OZA_r_u/
+1
+megadock2.5.3/2PCC_r_u/
+1
+megadock2.5.3/2SIC_r_u/
+3
+[1] "ROC(et):  0.70"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  0.22"
+[1] "ROC(svm): 0.91"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/2SNI_r_u/
+3
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.65"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/2UUY_r_u/
+5
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.74"
+[1] "ROC(svm): 0.78"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  0.28"
+[1] "ROC(svm): 0.48"
+[1] "ROC(et):  0.74"
+[1] "ROC(svm): 0.48"
+megadock2.5.3/2VDB_r_u/
+1
+megadock2.5.3/2Z0E_r_u/
+1
+megadock2.5.3/3CPH_r_u/
+1
+megadock2.5.3/3D5S_r_u/
+3
+[1] "ROC(et):  0.33"
+[1] "ROC(svm): 0.00"
+[1] "ROC(et):  0.70"
+[1] "ROC(svm): 0.65"
+[1] "ROC(et):  0.15"
+[1] "ROC(svm): 0.39"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/3SGQ_r_u/
+2
+[1] "ROC(et):  0.96"
+[1] "ROC(svm): 1.00"
+[1] "ROC(et):  1.00"
+[1] "ROC(svm): 0.96"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/4CPA_r_u/
+3
+[1] "ROC(et):  0.91"
+[1] "ROC(svm): 0.30"
+[1] "ROC(et):  0.70"
+[1] "ROC(svm): 0.52"
+[1] "ROC(et):  0.63"
+[1] "ROC(svm): 0.00"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+[1] "ROC(et):  NA"
+[1] "ROC(svm): NA"
+megadock2.5.3/7CEI_r_u/
+1
