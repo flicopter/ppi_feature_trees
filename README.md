@@ -21,8 +21,8 @@ It may be convenient to place all version benchmark data in one place, like belo
 cd benchmark4
 mkdir unbound
 mkdir bound
-cp */*_[rl]_b.pdb bound/.
-cp */*_[rl]_u.pdb unbound/.
+cp structures/*/*_[rl]_b.pdb bound/.
+cp structures/*/*_[rl]_u.pdb unbound/.
 ```
 
 Post-docking scripts
