@@ -1,13 +1,14 @@
 #!/bin/bash
 
 ### usage
-# bash analyze-binders.sh CONFIG_FILE RECEPTOR_PROTEIN_DIR PARTNER_PDB
-source $1 
+# bash analyze-binders.sh RECEPTOR_PROTEIN_DIR PARTNER_PDB [CONFIG_FILE]
+if [ $# -lt 3 ]; then CONFIG_FILE=Configs/$USER.cfg; else CONFIG_FILE=$3; fi
+source $CONFIG_FILE 
 
 ANCHOR=$PWD
-RECDIR=$2
-RECNAME=$( echo $2 | sed 's/\/$//' | awk -F '/' '{print $NF}')
-PARTNER_PDB=$( readlink -f $3 )
+RECDIR=$1
+RECNAME=$( echo $1 | sed 's/\/$//' | awk -F '/' '{print $NF}')
+PARTNER_PDB=$( readlink -f $2 )
 
 cd $RECDIR/
 rm -f *.pdb
