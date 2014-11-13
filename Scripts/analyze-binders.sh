@@ -2,7 +2,8 @@
 
 ### usage
 # bash analyze-binders.sh RECEPTOR_PROTEIN_DIR PARTNER_PDB [CONFIG_FILE]
-if [ $# -lt 3 ]; then CONFIG_FILE=Configs/$USER.cfg; else CONFIG_FILE=$3; fi
+GITHOME=$(git rev-parse --show-toplevel)
+if [ $# -lt 3 ]; then CONFIG_FILE=$GITHOME/Configs/$USER.cfg; else CONFIG_FILE=$3; fi
 source $CONFIG_FILE 
 
 ANCHOR=$PWD
