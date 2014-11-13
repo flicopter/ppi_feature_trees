@@ -36,6 +36,12 @@ Example
 bash Scripts/analyze-binders.sh Data/Docking/20140919_M2.5.3/1ACB_r_u/ Data/benchmark4/unbound/1ACB_r_u.pdb Configs/yuri.cfg
 ```
 
+You can find your results in:
+```
+Data/Docking/20140919_M2.5.3/1ACB_r_u/classify_results.txt
+```
+
+ignore followings ..
 ```bash
 python contactmap.py <docking_output_file> <partner_pdb_file>
 ```
