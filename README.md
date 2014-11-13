@@ -25,8 +25,16 @@ cp structures/*/*_[rl]_b.pdb bound/.
 cp structures/*/*_[rl]_u.pdb unbound/.
 ```
 
+Config files
+-----------------
+
 Post-docking scripts
 --------------------
+Example
+
+```bash
+bash Scripts/analyze-binders.sh Data/Docking/20140919_M2.5.3/1ACB_r_u/ Data/benchmark4/unbound/1ACB_r_u.pdb Config/yuri.cfg
+```
 
 ```bash
 python contactmap.py <docking_output_file> <partner_pdb_file>
