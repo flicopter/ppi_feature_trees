@@ -6,6 +6,21 @@ GITHOME=$(git rev-parse --show-toplevel)
 if [ $# -lt 3 ]; then CONFIG_FILE=$GITHOME/Configs/$USER.cfg; else CONFIG_FILE=$3; fi
 source $CONFIG_FILE 
 
+if [ ! -d "$SCRIPTDIR" ]; then
+  echo "Directory SCRIPTDIR ($SCRIPTDIR) does not exist."
+  exit 1
+fi
+
+if [ ! -d "$PDBDIR" ]; then
+  echo "Directory PDBDIR ($PDBDIR) does not exist."
+  exit 1
+fi
+
+if [ ! -e "$REFFILE" ]; then
+  echo "File REFFILE ($REFFILE) does not exist."
+  exit 1
+fi
+
 ANCHOR=$PWD
 RECDIR=$1
 RECNAME=$( echo $1 | sed 's/\/$//' | awk -F '/' '{print $NF}')
