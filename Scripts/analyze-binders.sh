@@ -23,7 +23,8 @@ fi
 
 ANCHOR=$PWD
 RECDIR=$1
-RECNAME=$( echo $1 | sed 's/\/$//' | awk -F '/' '{print $NF}')
+#RECNAME=$( echo $1 | sed 's/\/$//' | awk -F '/' '{print $NF}')
+RECNAME=$( basename $1 )
 PARTNER_PDB=$( readlink -f $2 )
 
 cd $RECDIR/
