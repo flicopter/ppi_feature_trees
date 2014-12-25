@@ -33,7 +33,7 @@ Post-docking scripts
 Example
 
 ```bash
-bash Scripts/analyze-binders.sh Data/Docking/20140919_M2.5.3/1ACB_r_u/ Data/benchmark4/unbound/1ACB_r_u.pdb Configs/yuri.cfg
+bash Scripts/analyze-binders.sh Data/Docking/20140919_M2.5.3/1ACB_r_u/ Data/benchmark4/unbound/1ACB_l_u.pdb Configs/yuri.cfg
 ```
 
 You can find your results in:
