@@ -3,7 +3,17 @@
 ### usage
 # bash analyze-binders.sh RECEPTOR_PROTEIN_DIR PARTNER_PDB [CONFIG_FILE]
 GITHOME=$(git rev-parse --show-toplevel)
-if [ $# -lt 3 ]; then CONFIG_FILE=$GITHOME/Configs/$USER.cfg; else CONFIG_FILE=$3; fi
+if [ $# -lt 3 ]
+then
+  if [ -e "$HOME/.ppi_feature_trees.cfg" ]
+  then
+    CONFIG_FILE="$HOME/.ppi_feature_trees.cfg"
+  else
+    CONFIG_FILE=$GITHOME/Configs/$USER.cfg
+  fi
+else 
+  CONFIG_FILE=$3
+fi
 source $CONFIG_FILE 
 
 if [ ! -d "$SCRIPTDIR" ]; then
