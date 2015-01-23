@@ -202,7 +202,10 @@ if __name__ == '__main__':
 		rlifp_file.write( str(i[0]) + ", " +  str(i[1]) + ", " + str( sum( rlifp[i] ) ) + "\n" )
 	rlifp_file.close()
 
+	import matplotlib
+	matplotlib.use( 'Agg' )
 	import matplotlib.pyplot as plt
+	
 	from mpl_toolkits.mplot3d import Axes3D
 
 	fig=plt.figure()
