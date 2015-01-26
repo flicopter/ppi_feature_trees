@@ -1,7 +1,7 @@
 args = commandArgs( trailingOnly=T )
 
-binders = dir(args[1], full.names=T)
-nobinders = dir(args[2], full.names=T)
+binders = dir(args[1], pattern="*.csv", full.names=T)
+nobinders = dir(args[2], pattern="*.csv", full.names=T)
 
 load_normalized <- function(file) {
   x = read.csv(file, header = F, row.names=1)
@@ -15,6 +15,9 @@ load_nonnormalized <- function(file) {
 
 binders.norm <- t(sapply(binders, load_normalized))
 nobinders.norm <- t(sapply(nobinders, load_normalized))
+
+print(sprintf("Loaded %d binders with %d aminoacid.", nrow(binders.norm), ncol(binders.norm)))
+print(sprintf("Loaded %d no_binders with %d aminoacid.", nrow(nobinders.norm), ncol(nobinders.norm)))
 
 D = rbind(binders.norm, nobinders.norm)
 Y = factor(rep(c("bind","nobind"), c(nrow(binders.norm), nrow(nobinders.norm) ) ))
