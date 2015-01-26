@@ -16,8 +16,8 @@ load_nonnormalized <- function(file) {
 binders.norm <- t(sapply(binders, load_normalized))
 nobinders.norm <- t(sapply(nobinders, load_normalized))
 
-print(sprintf("Loaded %d binders with %d aminoacid.", nrow(binders.norm), ncol(binders.norm)))
-print(sprintf("Loaded %d no_binders with %d aminoacid.", nrow(nobinders.norm), ncol(nobinders.norm)))
+print(sprintf("Loaded %d binders with %d interface residues.", nrow(binders.norm), ncol(binders.norm)))
+print(sprintf("Loaded %d no_binders with %d interface residues.", nrow(nobinders.norm), ncol(nobinders.norm)))
 
 D = rbind(binders.norm, nobinders.norm)
 Y = factor(rep(c("bind","nobind"), c(nrow(binders.norm), nrow(nobinders.norm) ) ))
@@ -51,8 +51,8 @@ for (i in 1:max(folds)) {
   svm.yhat <- attributes(predict(m2, D[itest,], decision.values = T))$decision.values
   
   print(data.frame(yhat, svm.yhat=unname(svm.yhat), ytrue=Y[itest]))
-  print(sprintf("ROC(et):  %1.2f", auc.roc(ytrue = 2-as.numeric(Y[itest]), yhat[,"bind"]) ))
-  print(sprintf("ROC(svm): %1.2f", auc.roc(ytrue = 2-as.numeric(Y[itest]), svm.yhat) ))
+  print(sprintf("ROC(et):  %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), yhat[,"bind"]) ))
+  print(sprintf("ROC(svm): %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), svm.yhat) ))
 }
 
 ## svm

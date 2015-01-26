@@ -1,6 +1,12 @@
 #!/bin/bash
 
 ### usage
+if [ "$#" -lt 2 ]
+    then echo "Usage: setup_binders.sh <DOCKING_DIR> <BINDER_PDB_FILE> [CONFIG_FILE]"
+    echo "  DOCKING_DIR     - directory with docking output files of one 'receptor' and multiple 'ligand's."
+    echo "  BINDER_PDB_FILE - PDB file that shows a binding pose of a binding partner to the 'receptor'."
+    exit 1
+fi
 # bash setup_binders.sh RECEPTOR_PROTEIN_DIR PARTNER_PDB [CONFIG_FILE]
 SCRIPTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 if [ $# -lt 3 ]
