@@ -47,4 +47,9 @@ done
 bash $SCRIPTDIR/movefile.sh $RECNAME
 
 rm -f *.pdb
+
+## calculate z-scores for binders and no_binders
+Rscript $SCRIPTDIR/top_zscore.R Binders/ Binders/top_zscore.txt
+Rscript $SCRIPTDIR/top_zscore.R No_Binders/ No_Binders/top_zscore.txt
+
 cd $ANCHOR 

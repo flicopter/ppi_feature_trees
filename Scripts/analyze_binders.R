@@ -1,7 +1,7 @@
 args = commandArgs( trailingOnly=T )
 
-binders = dir(args[1], pattern="*.csv", full.names=T)
-nobinders = dir(args[2], pattern="*.csv", full.names=T)
+binders = dir(args[1], pattern="*.recint.score.csv", full.names=T)
+nobinders = dir(args[2], pattern="*.recint.score.csv", full.names=T)
 
 load_normalized <- function(file) {
   x = read.csv(file, header = F, row.names=1)
@@ -16,6 +16,9 @@ load_nonnormalized <- function(file) {
 binders.norm <- t(sapply(binders, load_normalized))
 nobinders.norm <- t(sapply(nobinders, load_normalized))
 
+rownames(binders.norm) = gsub(".*-", "", gsub(".recint.score.csv$", "", rownames(binders.norm)))
+rownames(nobinders.norm) = gsub(".*-", "", gsub(".recint.score.csv$", "", rownames(nobinders.norm)))
+
 print(sprintf("Loaded %d binders with %d interface residues.", nrow(binders.norm), ncol(binders.norm)))
 print(sprintf("Loaded %d no_binders with %d interface residues.", nrow(nobinders.norm), ncol(nobinders.norm)))
 
@@ -26,6 +29,19 @@ Dnonnorm = rbind(
   t(sapply(binders, load_nonnormalized)),
   t(sapply(nobinders, load_nonnormalized))
 )
+
+## loading z-scores
+zbinders   = read.csv(sprintf("%s/top_zscore.txt", args[1]), sep="\t", as.is=TRUE, row.names="Ligand")
+znobinders = read.csv(sprintf("%s/top_zscore.txt", args[2]), sep="\t", as.is=TRUE, row.names="Ligand")
+
+## order the z-scores according to binders.norm
+zbinders   = zbinders[ rownames(binders.norm), , drop=FALSE ]
+znobinders = znobinders[ rownames(nobinders.norm), , drop=FALSE ]
+Z = rbind.data.frame(zbinders, znobinders)
+
+if (any(is.na(zbinders)) || any(is.na(znobinders))) {
+  stop("zbinders or znobinders have missing values.")
+}
 
 ## extraTrees
 library(extraTrees)
@@ -50,9 +66,17 @@ for (i in 1:max(folds)) {
   m2 <- svm(x = D[itrain,], y=Y[itrain], kernel = "radial", probability = T)
   svm.yhat <- attributes(predict(m2, D[itest,], decision.values = T))$decision.values
   
-  print(data.frame(yhat, svm.yhat=unname(svm.yhat), ytrue=Y[itest]))
-  print(sprintf("ROC(et):  %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), yhat[,"bind"]) ))
-  print(sprintf("ROC(svm): %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), svm.yhat) ))
+  ## z-score predictor
+  zscore.yhat <- Z$Score[itest]
+  
+  print(data.frame(
+    et.yhat  = yhat, 
+    svm.yhat = unname(svm.yhat),
+    zscore.yhat = zscore.yhat,
+    ytrue    = Y[itest]))
+  print(sprintf("ROC(et):     %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), yhat[,"bind"]) ))
+  print(sprintf("ROC(svm):    %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), svm.yhat) ))
+  print(sprintf("ROC(zscore): %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), -zscore.yhat) ))
 }
 
 ## svm
