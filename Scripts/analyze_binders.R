@@ -57,26 +57,43 @@ folds = c(
           generate_folds(num_instances = nrow(nobinders.norm), num_folds = 5))
 
 for (i in 1:max(folds)) {
-  itrain = folds != i
-  itest  = folds == i
+  itrain = sample(which(folds != i)) ## random shuffle (just in case)
+  itest  = sample(which(folds == i)) ## random shuffle (just in case)
+  
   
   et = extraTrees(D[itrain,], Y[itrain], numRandomCuts = 2, nodesize = 1, mtry=10)
   yhat = predict(et, D[itest,], probability = T)
   
-  m2 <- svm(x = D[itrain,], y=Y[itrain], kernel = "radial", probability = T)
-  svm.yhat <- attributes(predict(m2, D[itest,], decision.values = T))$decision.values
+  m1 <- svm(x = D[itrain,], y=Y[itrain], kernel = "radial", probability = T, cost = 1)
+  svm1.yhat <- attributes(predict(m1, D[itest,], decision.values = T))$decision.values
+
+  m2 <- svm(x = D[itrain,], y=Y[itrain], kernel = "radial", probability = T, cost = 3)
+  svm2.yhat <- attributes(predict(m2, D[itest,], decision.values = T))$decision.values
+
+  m3 <- svm(x = D[itrain,], y=Y[itrain], kernel = "radial", probability = T, cost = 10)
+  svm3.yhat <- attributes(predict(m3, D[itest,], decision.values = T))$decision.values
   
   ## z-score predictor
   zscore.yhat <- Z$Score[itest]
   
   print(data.frame(
     et.yhat  = yhat, 
-    svm.yhat = unname(svm.yhat),
+    svm1.yhat = unname(svm1.yhat),
+    svm2.yhat = unname(svm2.yhat),
+    svm3.yhat = unname(svm3.yhat),
     zscore.yhat = zscore.yhat,
     ytrue    = Y[itest]))
-  print(sprintf("ROC(et):     %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), yhat[,"bind"]) ))
-  print(sprintf("ROC(svm):    %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), svm.yhat) ))
-  print(sprintf("ROC(zscore): %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), -zscore.yhat) ))
+  print(sprintf("AUC-ROC(et):     %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), yhat[,"bind"]) ))
+  print(sprintf("AUC-ROC(svm1):   %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), -svm1.yhat) ))
+  print(sprintf("AUC-ROC(svm2):   %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), -svm2.yhat) ))
+  print(sprintf("AUC-ROC(svm3):   %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), -svm3.yhat) ))
+  print(sprintf("AUC-ROC(zscore): %1.2f", auc_roc(ytrue = 2-as.numeric(Y[itest]), -zscore.yhat) ))
+  
+  print(sprintf("BEDROC(et):     %1.2f", early_bedroc(ytrue = 2-as.numeric(Y[itest]), yhat[,"bind"]) ))
+  print(sprintf("BEDROC(svm1):   %1.2f", early_bedroc(ytrue = 2-as.numeric(Y[itest]), -svm1.yhat) ))
+  print(sprintf("BEDROC(svm2):   %1.2f", early_bedroc(ytrue = 2-as.numeric(Y[itest]), -svm2.yhat) ))
+  print(sprintf("BEDROC(svm3):   %1.2f", early_bedroc(ytrue = 2-as.numeric(Y[itest]), -svm3.yhat) ))
+  print(sprintf("BEDROC(zscore): %1.2f", early_bedroc(ytrue = 2-as.numeric(Y[itest]), -zscore.yhat) ))
 }
 
 ## svm
@@ -84,6 +101,3 @@ m <- svm(x = D, y=as.numeric(Y), kernel = "radial", probability = T, cost = 10, 
 svm.yhat <- predict(m, D, decision.values = T)
 svm.yhat
 
-m2 <- svm(x = Dnonnorm, y=as.numeric(Y), kernel = "radial", probability = T)
-svm.yhat <- predict(m, Dnonnorm, decision.values = T)
-svm.yhat
